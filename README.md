@@ -193,6 +193,10 @@ curl -v https://httpbin.org/ip --proxy socks5h://127.0.0.1:1080
 
 This request will be proxied over raw TCP packets to the server, and then forwarded according to the client mode configuration. The output should show your server's public IP address, confirming the connection is working.
 
+## One-Click Deploy
+
+[![Deploy on RepoCloud](https://d16t0pc4846x52.cloudfront.net/deploylobe.svg)](https://repocloud.io/details/Paqet/)
+
 ## Command-Line Usage
 
 `paqet` is a multi-command application. The primary command is `run`, which starts the proxy, but several utility commands are included to help with configuration and debugging.
